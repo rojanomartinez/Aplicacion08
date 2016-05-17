@@ -34,7 +34,7 @@ watchID = null;
 } 
  
 function Correcto(acceleration) { 
-var element = document.getElementById('#acelerometro'); 
+var element = document.getElementById('acelerometro'); 
 
 element.innerHTML = 'Aceleracion en X: ' + acceleration.x + '<br />' + 
 'Aceleracion en Y: ' + acceleration.y + '<br />' + 
@@ -48,7 +48,7 @@ alert('Error!');
 } 
 
 function Localiza(posicion) { 
-var element = document.getElementById('#geolocalizacion'); 
+var element = document.getElementById('geolocalizacion'); 
 element.innerHTML = 'Latitude: ' + posicion.coords.latitude + '<br />' + 
 
 'Longitud: ' + posicion.coords.longitude + '<br />' + 
