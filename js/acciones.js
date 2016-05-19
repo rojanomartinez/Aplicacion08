@@ -5,7 +5,7 @@ $(document).ready(function(e) {
 		
 		$('localizar').on('tap', function() {
 			navigator.geolocation.getCurrentPosition( function (position){
-				$('#geolocalizacion').html('Latitude: ' + position.coords.latitude + '\n' +
+				$('#localizacion').html('Latitude: ' + position.coords.latitude + '\n' +
 				'Longitude:'         + position.coords.longitude         + '\n' +
 				'Altitude:'          + position.coords.altitude          + '\n' +
 				'Accuracy:'          + position.coords.accuracy          + '\n' +
