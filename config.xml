@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
     <widget xmlns   = "http://www.we.org/ns/widgets"
 		xmlns:gap   = "http://phonegap.com/ns/1.0"
-		id          = "com.phonegap.example8"
+		id          = "com.phonegap.example9"
 		versionCode = "10"
 		version     = "1.0.0" >
 
@@ -10,10 +10,14 @@
     <name>Geolocalizacion</name>
 
     <description>
-        Aplicacion de geolocalizacion
+        Aplicacion de Geolocalizacion
     </description>
 
-    <preference name="phonegap-version" value="3.1.0" />
+    <preference name="phonegap-version" value="3.7.0" />
+	
+	 <preference name="target-device"     value="universal" />
+	 <preference name="fullscreen"     value="true" />
+	 <preference name="android-installLocation"     value="auto" />
 
     <author href="https://build.phonegap.com" email="support@phonegap.com">
        Rojano Martinez Jesus Angel
@@ -22,6 +26,7 @@
 <gap:plugin name="org.apache.cordova.device" version="0.2.12" />
         <gap:plugin name="org.apache.cordova.vibration" version="0.3.0" />
 <gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
+        <gap:plugin name="org.apache.cordova.geolocation" spec="0.3.12" source="pgb" />
 
 
      <!--Colocar icono app-->
